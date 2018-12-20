@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+  
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  
+    <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  
+  </head>
+  
+  <body>
+  
+    <div class="container">
+     <form action="/action_page.php">
+      <h2>Survey Questions</h2>
+      <hr>
+  
+      <h3><strong>Please fill in for your cat</strong></h3>
+      <h4>Name (Required)</h4>
+      <input type="text" id="name" class="form-control" required="">
+  
+      <h4>Link to Photo Image (Required)</h4>
+      <input type="text" id="photo" class="form-control" required="">
+  
+      <hr>
+      
+      <h3><strong>Question 1</strong></h3>
+      <h4>You enjoy drinking milk from a saucer.</h4>
+      <select id="q1" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value=1>1 (Strongly Disagree)</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+        <option value=5>5 (Strongly Agree)</option>
+      </select>
+
+      <h3><strong>Question 2</strong></h3>
+      <h4>You usually take at least one "cat nap" during the day.</h4>
+      <select id="q2" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+  
+      <h3><strong>Question 3</strong></h3>
+      <h4>If you see a mouse, your first thought is usually is to chase it.</h4>
+      <select id="q3" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+  
+      <h3><strong>Question 4</strong></h3>
+      <h4>You tend to get along well with other cats.</h4>
+      <select id="q4" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+  
+      <h3><strong>Question 5</strong></h3>
+      <h4>You are generally friendly towards humans.</h4>
+      <select id="q5" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+  
+      <h3><strong>Question 6</strong></h3>
+      <h4>Sometimes you "meow" just to see how humans will react.</h4>
+      <select id="q6" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+  
+      <h3><strong>Question 7</strong></h3>
+      <h4>Catching one's own food is preferable to being fed by a human.</h4>
+      <select id="q7" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+      <h3><strong>Question 8</strong></h3>
+      <h4>You enjoy climbing trees.</h4>
+      <select id="q8" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+      <h3><strong>Question 9</strong></h3>
+      <h4>You enjoy socializing with other cats.</h4>
+      <select id="q9" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+      <h3><strong>Question 10</strong></h3>
+      <h4>There's nothing wrong with sharpening one's claws on new furniture.</h4>
+      <select id="q10" required="" class="dropdown">
+        <option value="" selected>Please select from the options below</option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+      </select>
+  
+      <br>
+      <br>
+  
+      <!-- Submit Button -->
+      <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+       Submit</button>
+
+     </form>
+      <hr>
+      <footer class="footer">
+        <div class="container">
+          <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+        </div>
+      </footer>
+    </div>
+  
+    <!-- Modal -->
+    <div id="results-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+  
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h2 class="modal-title"><strong>Best Match</strong></h2>
+          </div>
+          <div class="modal-body">
+            <h2 id="match-name"></h2>
+            <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+    <script type="text/javascript">
+      // Chosen CSS
+    //   var config = {
+    //     ".chosen-select": {},
+    //     ".chosen-select-deselect": {
+    //       allow_single_deselect: true
+    //     },
+    //     ".chosen-select-no-single": {
+    //       disable_search_threshold: 10
+    //     },
+    //     ".chosen-select-no-results": {
+    //       no_results_text: "Oops, nothing found!"
+    //     },
+    //     ".chosen-select-width": {
+    //       width: "95%"
+    //     }
+    //   };
+  
+    //   for (var selector in config) {
+    //     $(selector).chosen(config[selector]);
+    //   }
+  
+      // Capture the form inputs
+      $("#submit").on("click", function(event) {
+        event.preventDefault();
+  
+        // Form validation
+        function validateForm() {
+          var isValid = true;
+          $(".form-control").each(function() {
+            if ($(this).val() === "") {
+              isValid = false;
+            }
+          });
+  
+          $(".dropdown").each(function() {
+  
+            if ($(this).val() === "") {
+              isValid = false;
+            }
+          });
+          return isValid;
+        }
+  
+        // If all required fields are filled
+        if (validateForm()) {
+          // Create an object for the user"s data
+
+            var one =  $("#q1").val()
+            var two =  $("#q2").val()
+            var three = $("#q3").val()
+            var four = $("#q4").val()
+            var five = $("#q5").val()
+            var six = $("#q6").val()
+            var seven = $("#q7").val()
+            var eight = $("#q8").val()
+            var nine = $("#q9").val()
+            var ten = $("#q10").val()
+
+          var friendsData = {
+            catName: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [
+              Number(one),
+              Number(two),
+              Number(three),
+              Number(four),
+              Number(five),
+              Number(six),
+              Number(seven),
+              Number(eight),
+              Number(nine),
+              Number(ten),
+            ]
+          };
+  
+          // AJAX post the data to the friends API.
+          $.post("/api/friends", friendsData, function(data) {
+            console.log("Data: " + JSON.stringify(data));
+            // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+            $("#match-name").text(data.CatName);
+            $("#match-img").attr("src", data.photo);
+  
+            // Show the modal with the best match
+            $("#results-modal").modal("toggle");
+          
+          });
+        } else {
+          alert("Please fill out all fields before submitting!");
+        }
+      });
+    </script>
+  
+  
+  
+  
+  </body></html>
