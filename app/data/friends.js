@@ -1,6 +1,6 @@
 var friendsArray = [{
     catName: "Mr. Whiskers",
-    photo:"mr_whiskers.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cat_portrait_3_%2815239273392%29.jpg/1200px-Cat_portrait_3_%2815239273392%29.jpg",
     scores:[
         5,
         1,
@@ -15,7 +15,7 @@ var friendsArray = [{
       ]
   },{
     catName: "Bubba the Bowlcleaner",
-    photo:"bubba_the_bowlcleaner.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/en/2/28/BlackLaPerm.jpg",
     scores:[
         5,
         1,
@@ -30,7 +30,7 @@ var friendsArray = [{
       ]
   },{
     catName: "Clawdius",
-    photo:"clawdius.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/3/3c/Tabby-cat-domestic-shorthair-force.jpg",
     scores:[
         1,
         2,
@@ -45,7 +45,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Don Meowmeow",
-    photo:"don_meowmeow.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Javanese_cat.jpg",
     scores:[
         5,
         3,
@@ -60,7 +60,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Dr. Cornelius",
-    photo:"dr_cornelius.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/e/e5/Buck%2C_sweet_Avatar_Cat_Buckynanda_Ji.jpg",
     scores:[
         1,
         3,
@@ -75,7 +75,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Fluffy",
-    photo:"fluffy.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/7/7f/Nagec_cat.jpg",
     scores:[
         3,
         4,
@@ -90,7 +90,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Happy",
-    photo:"happy.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/So_happy_smiling_cat.jpg/1027px-So_happy_smiling_cat.jpg",
     scores:[
         5,
         2,
@@ -105,7 +105,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Mittens",
-    photo:"mittens.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/c/c7/A_black_cat_named_Tilly.jpg",
     scores:[
         1,
         5,
@@ -120,7 +120,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Peanut",
-    photo:"peanut.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/e/e5/Cat%27s_Eye%2C_Pupil_Fully_Dilated.png",
     scores:[
         3,
         2,
@@ -135,7 +135,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Sasha",
-    photo:"sasha.jpg",
+    photo:"https://upload.wikimedia.org/wikipedia/commons/2/25/Odd-eyed_Turkish_Angora_cat_-_20080830.jpg",
     scores:[
         2,
         5,
@@ -150,7 +150,7 @@ var friendsArray = [{
       ] 
   },{
     catName: "Sinatra",
-    photo:"sasha.jpg",
+    photo:"https://img00.deviantart.net/b632/i/2010/020/a/d/watch_cat___jan_2010_by_pearwood.jpg",
     scores:[
         1,
         2,
@@ -166,12 +166,4 @@ var friendsArray = [{
   }
 ]
 
-// var matchData = {
-// matchName: "",
-// matchPhoto: "",
-// }
-
-
-
-// Note how we export the array. This makes it accessible to other files using require.
 module.exports = friendsArray;
